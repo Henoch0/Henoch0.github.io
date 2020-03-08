@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <link rel="stylesheet" type="text/css" href="../css/fixed.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+
+    <title>Homepage</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+
+    
+
+
+    <!-- Start Home Section -->
+  <div id="home">
+    <!--- Navigation Bar --->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="homepage.html"><img src="../images/Logo1.png" alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+           <span class="navbar-toggler-icon"> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto"> <!-- schiebt navbar nach rechts-->
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photos">Fotos </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!--- End Navigation Bar -->
+
+    <!--- Start Image Slider -->
+     <!-- Indicators -->
+      <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"> </li>
+          <li data-target="#carouselIndicators" data-slide-to="1"> </li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!--- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(../images/man.jpg);">
+            <!-- Heading -->
+            <div class="carousel-caption text-center">
+              <h1> Welcome To My Website</h1>
+              <h3> Everything about ME.. </h3>
+        </div>
+      </div>
+      <!--Slide3 --> <!-- White Flash JAvaScript löst vllt das problem ?!-->
+      <div class="carousel-item" style="background-image: url(../images/man.jfif);">
+        <!-- Heading -->
+        <div class="carousel-caption text-center">
+              <h1> Welcome To My Website</h1>
+              <h3>..and MY thoughts. </h3>
+        </div>
+      </div>
+       <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+    <!-- End Home Section -->
+  </div>
+</div>
+</div>
+
+
+    <!-- Start Photos Section -->
+      <div id="photos" class="offset">
+        <div class="jumbotron container-fluid">
+          <div class="col-12 text center ">
+            <h3 class="heading">Fotos</h3>
+            <div class="heading-underline">
+            </div>
+          </div>
+
+            <div class="row no-padding">
+
+              <div class="col-sm-4">
+                <div class="photos ">
+                  <a href="../images/broadway.jpg" target="_blank" >
+                    <img src="../images/broadway.jpg">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="photos ">
+                  <a href="../images/statue.jpg" target="_blank">
+                    <img src="../images/statue.jpg">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="photos ">
+                  <a href="../images/sky.jpg" target="_blank">
+                    <img src="../images/sky.jpg">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="photos ">
+                  <a href="../images/bridge.jpg" target="_blank">
+                    <img src="../images/bridge.jpg">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="photos ">
+                  <a href="../images/tower.jpg" target="_blank">
+                    <img src="../images/tower.jpg">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="photos ">
+                  <a href="../images/balt2.jpg" target="_blank">
+                    <img src="../images/balt2.jpg">
+                  </a>
+                </div>
+              </div>
+
+            <div class="narrow text-center">
+              <div class="col-12">
+                <a class=" btn btn-secondary btn-md" href="../photos/photos.html" target="_self"> To Fotos </a>
+                </div>
+              </div>
+
+            </div> <!-- End of Row -->
+
+      </div> <!-- End of Jumbotron -->
+    </div>
+    <!-- End photos Section -->
+
+
+    <!-- Start Blog Section -->
+      <div id="blog" class="offset">
+        <div class="container-fluid">
+        <h3 class="heading">Blog</h3>
+            <div class="heading-underline"> </div>
+          </div>
+            <div class="row padding ">
+              <div class="col-sm-4 ">
+                <div class="card text-center">
+                  <a href="../blog/artikel/zweiterArtikel.html">
+                    <img class="card-img" src="../images/compass.png" >
+              
+                      <img class="fade-img" src="https://assets.website-files.com/5d232312be88275ce0acdb09/5e1b28706934592cd2adc0a2_White-book-open.svg">
+                   
+                  </a>
+                  <div class="card-body">
+                    <h4> Ziele sind die Lösung für ein besseres Leben</h4>
+                    <p>Ziele sind der Kompass unseres Lebens. Sie bestimmen unsere Richtung und helfen uns sicher durch stürmische Phasen des Lebens zu navigieren. Die Erkenntnis, dass wir Ziele benötigen, reicht aber nur der erste Schritt... </p> 
+                  </div>
+              </div>
+            </div>
+              <div class="col-sm-4">
+                <div class="card text-center">
+                  <a href="../blog/artikel/vierterArtikel.html">
+                  <img class="card-img" src="../images/blondegirl.png"  >
+                       <img class="fade-img" src="https://assets.website-files.com/5d232312be88275ce0acdb09/5e1b28706934592cd2adc0a2_White-book-open.svg">
+                   </a>
+                  <div class="card-body">
+                    <h4> Nice Guys </h4>
+                    <p> Nice Guys verstehen sich selbst als der wahrgewordene Traum aller Frauen. Höflich, zuvorkommend, intelligent und immer da, wenn du sie brauchst. Nice Guys haben keine Beziehungen, keine Affären, keine Dates, keinen Sex und vor allem keinen Plan...</p> 
+                  </div>
+              </div>
+            </div> 
+
+             
+            <div class="col-sm-4 ">
+                <div class="card text-center">
+                  <a href="../blog/artikel/ersterArtikel.html">
+                    <img class="card-img" src="../images/tears.jfif"  >
+
+                       <img class="fade-img" src="https://assets.website-files.com/5d232312be88275ce0acdb09/5e1b28706934592cd2adc0a2_White-book-open.svg">
+          
+                  </a>
+                  <div class="card-body">
+                    <h4> Was sind Gefühle & Emotionen und wie können wir sie begreifen?</h4>  
+                    <p>Jeder von uns kennt plötzliche Stimmungsschwankungen: Am berühmtesten ist wohl der Wutausbruch, den wir meist selbst gar nicht so richtig nachvollziehen können. Woher kommt also diese plötzliche Energie... </p>              
+                  </div>
+              </div>
+            </div>
+ 
+            
+
+            <div class="narrow text-center">
+              <div class="col-12">
+                <a class=" btn btn-secondary btn-md" href="../blog/blog.html" target="_self"> To Blog </a>
+                </div>
+              </div>
+
+            <!-- End of Row -->
+              </div>
+            </div>
+      </div>
+
+    <!-- End Blog Section -->
+
+    <!-- Start Contacts Section -->
+      <div id="contact" >
+        <footer>
+          <div class="row justify-content-center">
+            <div class="col-md-4 text-center ">
+              <img src="../images/logo2.png"  alt="">
+              <p> Willkommen auf meiner Website. Ich bin Henoch Biru / 21 Jahre alt. Studiere Wirtschaftsinformatik im 4. Semester und auf diese Seite erfährst du alles über mich und meine Gedanken zu verschiedenen Themen. Viel Spaß du Laus :)</p>
+              <strong>Contact Info</strong>
+              <p>Tel: 017657656652 <br>henoch.biru@hotmail.com</p>
+
+              <a href="https://www.youtube.com/channel/UCDfRkTTeh_6SVd9Kr7a-mHQ?view_as=subscriber" target="_blank"> <i class="fab fa-youtube"></i> </a>
+              <a href=" https://www.instagram.com/henoch.b/" target="_blank"> <i class="fab fa-instagram"></i> </a>
+              <a href="" target="_blank"> <i class="fab fa"></i> </a>
+            </div>
+
+            <hr class="socket">
+            &copy; Henoch Biru
+          </div>
+          </div> <!-- end of row -->
+        </footer>
+        
+      </div>
+    <!-- End Contacts Section -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/548277342c.js" crossorigin="anonymous"></script>
+  </body>
+</html>
