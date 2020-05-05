@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962;
   position: static;
@@ -181,22 +181,6 @@ h3.heading {
   opacity: 0.7;
 }
 
-.fade-img {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  bottom: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  height:100px;
-  padding: 16px 32px;
-}
-
-
-.card:hover .fade-img {
-  opacity: 1;
-}
 
 
 
