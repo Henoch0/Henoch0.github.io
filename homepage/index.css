@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-nav li {
- padding-right: 0.7rem; 
+ padding-right: 0.7rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -99,10 +99,10 @@ body {
   font-size: 1.1rem;
 }
 .carousel-control-prev {
-  z-index: 10; 
+  z-index: 10;
 }
 .carousel-control-next {
-  z-index: 10; 
+  z-index: 10;
 }
 
 
@@ -174,7 +174,7 @@ h3.heading {
 
 
 .row-blog {
-  padding: 3rem; 
+  padding: 3rem;
 }
 
 
@@ -218,7 +218,7 @@ hr.socket {
 
 /* Media Queries */
 
-@media (min-width: 768px) and (max-width: 1024px) { 
+@media (min-width: 768px) and (max-width: 1024px) {
       .carousel-caption h1 {
       font-size: 2rem;
       letter-spacing: 0.15rem;
@@ -258,8 +258,8 @@ hr.socket {
 
   }
 
- @media only screen 
-and (min-device-width : 375px) 
+ @media only screen
+and (min-device-width : 360px) 
 and (max-device-width : 812px){
       .carousel-caption h1 {
       font-size: 2rem;
@@ -312,4 +312,3 @@ and (max-device-width : 812px){
   }
 
   }
-
