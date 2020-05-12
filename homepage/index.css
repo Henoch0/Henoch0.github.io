@@ -9,7 +9,6 @@ body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962;
-  position: static;
 }
 .narrow {
   width: 75%;
@@ -165,22 +164,18 @@ h3.heading {
   object-fit: cover;
   box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.12);
   border-radius: 8px;
-}
+    display: inline-block !important;
+  }
 
 .card-img {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  backface-visibility: hidden;
-  max-height: 260px;
-
+  width: 80%;
+  margin-left: 8rem;
 }
 
-.card-img:hover {
-  opacity: 0.7;
-}
 
+.row-blog {
+  padding: 3rem; 
+}
 
 
 
@@ -223,7 +218,7 @@ hr.socket {
 
 /* Media Queries */
 
-@media (max-width: 767px) /* anstatt min widht weil full screen */{
+@media (min-width: 768px) and (max-width: 1024px) { 
       .carousel-caption h1 {
       font-size: 2rem;
       letter-spacing: 0.15rem;
@@ -242,8 +237,79 @@ hr.socket {
     .narrow h1 {
       font-size: 1.5rem;
     }
-}
 
-.narrow text-center {
-  padding: 0;
-}
+  .narrow text-center {
+    padding: 0;
+  }
+
+    .navbar{
+     background: rgba(0, 0, 0, 0.6)!important;
+    }
+
+  .card {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    box-shadow: 0 0 black;
+    margin: 0;
+  }
+
+
+  }
+
+ @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px){
+      .carousel-caption h1 {
+      font-size: 2rem;
+      letter-spacing: 0.15rem;
+      padding-bottom: .5rem
+    }
+
+    .carousel-caption h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1.2rem;
+    }
+
+    .bt-lg {
+      font-size: 1rem;
+    }
+
+    .narrow h1 {
+      font-size: 1.5rem;
+    }
+
+  .narrow text-center {
+    padding: 0;
+  }
+
+    .navbar{
+     background: rgba(0, 0, 0, 0.6)!important;
+
+    }
+    .navbar-nav{
+      height: 100vh;
+    }
+
+    .row {
+      padding: 0;
+    }
+
+  .card {
+    border: none;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    box-shadow: 0 0 black;
+    margin: 0;
+  }
+
+  .info {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  }
+
