@@ -150,7 +150,7 @@ a > span:after {
 .effect-2:before, .effect-2:after {
   left: 0;
   top: 0;
-  width: 100%;
+  width: 200%;
   height: 100%;
   border-style: solid;
   border-color: #A9DFBF;
