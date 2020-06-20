@@ -84,9 +84,21 @@ h2 {
   text-align: center;
   font-weight: normal;
 }
-@media screen and (max-width: 768px) {
+ @media only screen
+and (min-device-width : 360px) 
+and (max-device-width : 812px){
   h2 {
     width: 100%;
+  }
+  .img {
+    max-width: 100%;
+  }
+  .gif {
+    max-width: 100%;
+  }
+
+  p {
+    text-align: justify;
   }
 }
 
