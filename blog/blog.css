@@ -92,9 +92,11 @@ and (max-device-width : 812px){
   }
   .img {
     max-width: 100%;
+    width: 100%;
   }
   .gif {
     max-width: 100%;
+    width: 100%;
   }
 
   p {
