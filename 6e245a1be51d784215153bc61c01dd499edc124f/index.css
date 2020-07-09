@@ -1,0 +1,314 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.btn-md {
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.6rem 1.1 rem;
+  text-transform: uppercase;
+  margin:1rem;
+}
+
+
+/* Navbar*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem; /*1rem = 16px*/
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.1)!important;
+}
+
+.navbar-brand img {
+  border-radius: 13px;
+  height: 2.3rem;
+}
+
+.navbar-nav li {
+ padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1a75ff;
+}
+
+/* slider*/
+
+.carousel-item  {
+  height: 100vh; /*vertical height*/
+  background-position: center center;
+    min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  top: 30%;
+  text-transform: uppercase;
+  width: 100%;
+  right: 0;
+  left:0;
+}
+
+
+.carousel-caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+  right:0;
+}
+
+.carousel-caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.bt-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1rem;
+}
+.carousel-control-prev {
+  z-index: 10;
+}
+.carousel-control-next {
+  z-index: 10;
+}
+
+
+
+.jumbotron {
+  border-radius: 0;
+  padding: 3rem 0 2rem;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #7aa7f0;
+  margin: 0 auto 2rem;
+
+}
+
+
+/* Photos*/
+
+.photos {
+  overflow:hidden;
+}
+.col-sm-4 img {
+  object-fit: cover;
+}
+
+.photos img {
+  max-width: 100%;
+  min-height: 100%;
+  transition: transform 0.5s ease;
+
+}
+.photos img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+.row.no-padding [class*=col-] {
+  padding: 0;
+}
+
+
+
+/* Blog */
+
+.card {
+  margin: 2rem;
+  object-fit: cover;
+  box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+    display: inline-block !important;
+  }
+
+.card-img {
+  width: 80%;
+  margin-left: 8rem;
+}
+
+
+.row-blog {
+  padding: 3rem;
+}
+
+
+
+/** Contact **/
+
+footer {
+  background-color: #7d8891;
+  color: white;
+  padding: 3rem 0 3rem;
+  margin-top: 1rem;
+
+}
+
+footer img {
+  height: 5rem;
+  margin: 1.5rem 0;
+}
+footer img:hover {
+ color: #40474e;
+}
+
+footer a {
+  color: white;
+}
+
+footer svg.svgin-inline--fa {
+  font-size: 2rem;
+  margin: 1rem 0.5rem 0 0;
+}
+
+footer svg.svgin-inline--fa:hover {
+  color: #40474e;
+}
+
+hr.socket {
+  border-top: 0.2rem solid white;
+  width: 100%;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+      .carousel-caption h1 {
+      font-size: 2rem;
+      letter-spacing: 0.15rem;
+      padding-bottom: .5rem
+    }
+
+    .carousel-caption h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1.2rem;
+    }
+
+    .bt-lg {
+      font-size: 1rem;
+    }
+
+    .narrow h1 {
+      font-size: 1.5rem;
+    }
+
+  .narrow text-center {
+    padding: 0;
+  }
+
+    .navbar{
+     background: rgba(0, 0, 0, 0.6)!important;
+    }
+
+  .card {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    box-shadow: 0 0 black;
+    margin: 0;
+  }
+
+
+  }
+
+ @media only screen
+and (min-device-width : 360px) 
+and (max-device-width : 812px){
+      .carousel-caption h1 {
+      font-size: 2rem;
+      letter-spacing: 0.15rem;
+      padding-bottom: .5rem
+    }
+
+    .carousel-caption h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1.2rem;
+    }
+
+    .bt-lg {
+      font-size: 1rem;
+    }
+
+    .narrow h1 {
+      font-size: 1.5rem;
+    }
+
+  .narrow text-center {
+    padding: 0;
+  }
+
+    .navbar{
+     background: rgba(0, 0, 0, 0.6)!important;
+
+    }
+    .navbar-nav{
+      height: 100vh;
+    }
+
+    .row {
+      padding: 0;
+    }
+
+  .card {
+    border: none;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    box-shadow: 0 0 black;
+    margin: 0;
+  }
+
+  .info {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  }
