@@ -15,29 +15,31 @@
   </head>
   <body data-spy="scroll" data-target="#navbarResponsive">
     
-    <!-- Start Home Section -->
-  
-    <!--- Navigation Bar --->
-    <nav class="navbar navbar-expand-md navbar-dark  fixed-top">
-      <a class="navbar-brand" href="../../homepage/index.html"><img src="../../images/Logo1.png" alt="logo"> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-           <span class="navbar-toggler-icon"> </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto"> <!-- schiebt navbar nach rechts-->
-           <li class="nav-item">
-              <a class="nav-link" href="../../homepage/index.html">Home </a>
+  <!--- Navigation Bar --->
+        <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <ul class="navbar navbar-nav p"> <!-- schiebt navbar nach rechts-->
+            <li class="nav-item">
+              <a class="nav-link" href="../homepage/index.html">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../photos/photos.html">Photos </a>
+              <a class="nav-link" href="../photos/photos.html">Photos </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../blog.html">Blog</a>
+              <a class="nav-link" href="#blog">Blog</a>
             </li>
           </ul>
         </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+         <a class="navbar-brand" href="../homepage/index.html"><img src="../images/Logo1.png" alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </nav>
+    </div>
+
+    <!--- End Navigation Bar -->
 <section class="content">
         <article class="content__inner">
           <h1 class="content__title"> Motivation </h1>
