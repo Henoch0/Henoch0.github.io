@@ -108,6 +108,7 @@ and (max-device-width : 812px){
 
   .navbar-nav {
     height: 50px !important;
+    padding-left: 16px;
   }
 
   h2 {
