@@ -153,6 +153,17 @@ and (max-device-width : 812px){
   text-align: center;
   font-size: 0.8rem;
 }
+
+blockquote:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 6px;
+  height: 100%;
+  background-color: #A9DFBF;
+  border-radius: 60px;
+}
 }
 
 blockquote {
@@ -168,7 +179,7 @@ blockquote:before {
   content: '';
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10px;
   width: 6px;
   height: 100%;
   background-color: #A9DFBF;
