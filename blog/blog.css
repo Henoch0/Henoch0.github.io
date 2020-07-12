@@ -111,6 +111,11 @@ h2 {
 and (min-device-width : 360px) 
 and (max-device-width : 812px){
 
+  .first {
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
   .content {
     padding: 0rem !important;
   }
@@ -157,8 +162,7 @@ and (max-device-width : 812px){
   }
 
   blockquote {
-    padding-right: 1.2rem;
-    padding-left: 1.2rem;
+    font-size: 1.7rem !important;
   }
 
 .img-with-text {
