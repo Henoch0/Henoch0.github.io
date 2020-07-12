@@ -130,6 +130,11 @@ and (max-device-width : 812px){
     padding-left: 1rem;
   }
 
+  blockquote {
+     padding-right: 1.2rem;
+    padding-left: 1.2rem;
+  }
+
 .img-with-text {
   text-align: center;
   font-size: 0.8rem;
