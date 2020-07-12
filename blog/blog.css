@@ -112,9 +112,9 @@ and (min-device-width : 360px)
 and (max-device-width : 812px){
 
   .first {
-    width: 100vw;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100vw !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .content {
     padding: 0rem !important;
