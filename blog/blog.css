@@ -65,8 +65,17 @@ a:hover {
   width: 50%;
   border-radius: 2px;
 }
-.img, .video {
+.img {
   display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+  box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.video {
+    display: block;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -94,9 +103,13 @@ and (max-device-width : 812px){
   h2 {
     width: 100%;
   }
-  .img ,.video {
+  .img  {
     max-width: 100%;
     width: 100%;
+  }
+
+  .video {
+    max-width: 100%;
   }
   .gif {
     max-width: 100%;
