@@ -151,20 +151,22 @@ and (max-device-width : 812px){
 
 .img-with-text {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.8rem !important;
 }
 
 blockquote:before {
   content: '';
   position: absolute;
   top: 0;
-  left: 10px;
+  left: 10px !important;
   width: 6px;
   height: 100%;
   background-color: #A9DFBF;
   border-radius: 60px;
 }
 }
+
+
 
 blockquote {
   position: relative;
