@@ -98,6 +98,12 @@ and (max-device-width : 812px){
     max-width: 100%;
     width: 100%;
   }
+    p {
+    letter-spacing: .4px;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
 }
 
 blockquote {
