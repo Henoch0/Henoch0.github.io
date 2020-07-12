@@ -102,6 +102,10 @@ and (max-device-width : 812px){
     padding: 0rem !important;
   }
 
+  .navbar {
+    z-index: 200;
+  }
+
   .navbar-nav {
     height: 50px !important;
   }
@@ -131,7 +135,7 @@ and (max-device-width : 812px){
   }
 
   blockquote {
-     padding-right: 1.2rem;
+    padding-right: 1.2rem;
     padding-left: 1.2rem;
   }
 
