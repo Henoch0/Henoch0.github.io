@@ -65,7 +65,7 @@ a:hover {
   width: 50%;
   border-radius: 2px;
 }
-.img .video {
+.img, .video {
   display: block;
   width: 70%;
   margin-left: auto;
@@ -94,7 +94,7 @@ and (max-device-width : 812px){
   h2 {
     width: 100%;
   }
-  .img .video {
+  .img ,.video {
     max-width: 100%;
     width: 100%;
   }
