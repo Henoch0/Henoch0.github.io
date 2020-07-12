@@ -19,6 +19,15 @@ body {
 
 }
 
+  .navbar {
+    z-index: 200;
+  }
+
+  .navbar-nav {
+    height: 50px !important;
+    padding-left: 16px;
+  }
+
 .navbar-brand img {
   border-radius: 13px;
   height: 2.3rem;
