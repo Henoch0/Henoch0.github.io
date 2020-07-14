@@ -14,7 +14,6 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
-    margin-left: 30px;
 }
 
 a,
@@ -156,11 +155,10 @@ a.article:hover {
 
 #content {
     width: calc(100% - 250px);
-    padding: 40px;
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
 }
 
@@ -280,5 +278,10 @@ and (max-device-width : 812px){
         display: none;
     }
 
+  }
+
+
+  button {
+    font-family: auto;
   }
 
