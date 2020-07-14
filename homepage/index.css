@@ -5,6 +5,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
+.navbar {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
 body, html {
   overflow-x: hidden;
   position: relative;
