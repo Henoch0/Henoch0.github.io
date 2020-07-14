@@ -5,8 +5,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
-body {
+body, html {
   overflow-x: hidden;
+  position: relative;
   font-family: 'Lato', sans-serif;
   color: #505962;
 }
