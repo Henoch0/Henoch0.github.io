@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    opacity: 0.5;
+}
+
 .navbar {
     opacity: 1;
     transition: opacity 0.5s ease;

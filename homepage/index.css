@@ -333,4 +333,5 @@ hr.socket {
     bottom: 25px;
     right: 25px;
     display: none;
+    opacity: 0.5;
 }
