@@ -83,6 +83,10 @@ html {
     color: #1a75ff;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
 
 * {
     box-sizing: border-box;
