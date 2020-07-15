@@ -3,6 +3,7 @@
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -13,7 +14,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;    
+    color: #999;
 }
 
 a,
@@ -26,9 +27,9 @@ a:focus {
 }
 
 .sidebar-header img {
-  border-radius: 13px;
-  height: 2.3rem;
-  float: right;
+    border-radius: 13px;
+    height: 2.3rem;
+    float: right;
 }
 
 .navbar {
@@ -79,7 +80,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background:#fafafa;
+    background: #fafafa;
 }
 
 #sidebar ul.components {
@@ -174,15 +175,19 @@ a.article:hover {
     #sidebar {
         margin-left: -300px;
     }
+
     #sidebar.active {
         margin-left: 0;
     }
+
     #content {
         width: 100%;
     }
+
     #content.active {
         width: calc(100% - 250px);
     }
+
     #sidebarCollapse span {
         display: none;
     }
@@ -194,34 +199,34 @@ a.article:hover {
 
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .header {
-  text-align: center;
-  padding: 32px;
+    text-align: center;
+    padding: 32px;
 }
 
 .row {
-  padding: 0 4px;
+    padding: 0 4px;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
-  padding: 0 4px;
+    padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
-  width: 100%;
+    margin-top: 8px;
+    width: 100%;
 }
 
 .rotate90 {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 
@@ -232,36 +237,37 @@ a.article:hover {
 
 /* The Close Button */
 .close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* 100% Image Width on Smaller Screens */
- @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px){
-        #sidebar {
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) {
+    #sidebar {
         margin-left: -250px;
     }
+
     #sidebar.active {
         margin-left: 0;
     }
+
     #content {
         width: 100%;
     }
-        #content.active {
+
+    #content.active {
         width: calc(78% - 250px);
     }
 
@@ -271,17 +277,16 @@ and (max-device-width : 812px){
     }
 
     .row.active {
-      margin:0;
+        margin: 0;
     }
 
     #sidebarCollapse span {
         display: none;
     }
 
-  }
+}
 
 
-  button {
+button {
     font-family: auto;
-  }
-
+}

@@ -1,205 +1,183 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
-
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-
     <title>Homepage</title>
-  </head>
-  <body data-spy="scroll" data-target="#navbarResponsive">
+</head>
 
-    
-
-
+<body data-spy="scroll" data-target="#navbarResponsive">
     <!-- Start Home Section -->
-  <div id="home">
-    <!--- Navigation Bar --->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="../images/Logo1.png" alt="logo"> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-           <span class="navbar-toggler-icon"> </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav align-items-center ml-auto"> <!-- schiebt navbar nach rechts-->
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../photos/photos.html">Fotos </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../blog/blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <!--- End Navigation Bar -->
-
-    <!--- Start Image Slider -->
-     <!-- Indicators -->
-      <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselIndicators" data-slide-to="0" class="active"> </li>
-          <li data-target="#carouselIndicators" data-slide-to="1"> </li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!--- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(../images/man.jpg);">
-            <!-- Heading -->
-            <div class="carousel-caption text-center">
-              <h3> Everything about ME </h3>
-        </div>
-      </div>
-      <!--Slide3 --> <!-- White Flash JAvaScript löst vllt das problem ?!-->
-      <div class="carousel-item" style="background-image: url(https://images.unsplash.com/photo-1529654944994-e2737cc0f0ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);">
-        <!-- Heading -->
-        <div class="carousel-caption text-center">
-              <h3>and MY thoughts </h3>
-        </div>
-      </div>
-       <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-    <!-- End Home Section -->
-  </div>
-</div>
-</div>
-
-
-    <!-- Start Photos Section -->
-      <div id="photos" class="offset">
-        <div class="jumbotron container-fluid">
-          <div class="col-12 text center ">
-            <h3 class="heading">Fotos</h3>
-            <div class="heading-underline">
+    <div id="home">
+        <!--- Navigation Bar --->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="../images/Logo1.png" alt="logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav align-items-center ml-auto">
+                    <!-- schiebt navbar nach rechts-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../photos/photos.html">Fotos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../blog/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-
+        </nav>
+        <!--- End Navigation Bar -->
+        <!--- Start Image Slider -->
+        <!-- Indicators -->
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"> </li>
+                <li data-target="#carouselIndicators" data-slide-to="1"> </li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!--- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url(../images/man.jpg);">
+                    <!-- Heading -->
+                    <div class="carousel-caption text-center">
+                        <h3> Everything about ME </h3>
+                    </div>
+                </div>
+                <!--Slide3 -->
+                <!-- White Flash JAvaScript löst vllt das problem ?!-->
+                <div class="carousel-item" style="background-image: url(https://images.unsplash.com/photo-1529654944994-e2737cc0f0ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);">
+                    <!-- Heading -->
+                    <div class="carousel-caption text-center">
+                        <h3>and MY thoughts </h3>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <!-- End Home Section -->
+            </div>
+        </div>
+    </div>
+    <!-- Start Photos Section -->
+    <div id="photos" class="offset">
+        <div class="jumbotron container-fluid">
+            <div class="col-12 text center ">
+                <h3 class="heading">Fotos</h3>
+                <div class="heading-underline">
+                </div>
+            </div>
             <div class="row no-padding">
-
-              <div class="col-sm-4">
-                <div class="photos ">
-                  <a href="../images/broadway.jpg" target="_blank" >
-                    <img src="../images/broadway.jpg">
-                  </a>
+                <div class="col-sm-4">
+                    <div class="photos ">
+                        <a href="../images/broadway.jpg" target="_blank">
+                            <img src="../images/broadway.jpg">
+                        </a>
+                    </div>
                 </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="photos ">
-                  <a href="../images/statue.jpg" target="_blank">
-                    <img src="../images/statue.jpg">
-                  </a>
+                <div class="col-sm-4">
+                    <div class="photos ">
+                        <a href="../images/statue.jpg" target="_blank">
+                            <img src="../images/statue.jpg">
+                        </a>
+                    </div>
                 </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="photos ">
-                  <a href="../images/sky.jpg" target="_blank">
-                    <img src="../images/sky.jpg">
-                  </a>
+                <div class="col-sm-4">
+                    <div class="photos ">
+                        <a href="../images/sky.jpg" target="_blank">
+                            <img src="../images/sky.jpg">
+                        </a>
+                    </div>
                 </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="photos ">
-                  <a href="../images/bridge.jpg" target="_blank">
-                    <img src="../images/bridge.jpg">
-                  </a>
+                <div class="col-sm-4">
+                    <div class="photos ">
+                        <a href="../images/bridge.jpg" target="_blank">
+                            <img src="../images/bridge.jpg">
+                        </a>
+                    </div>
                 </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="photos ">
-                  <a href="../images/tower.jpg" target="_blank">
-                    <img src="../images/tower.jpg">
-                  </a>
+                <div class="col-sm-4">
+                    <div class="photos ">
+                        <a href="../images/tower.jpg" target="_blank">
+                            <img src="../images/tower.jpg">
+                        </a>
+                    </div>
                 </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="photos ">
-                  <a href="../images/balt2.jpg" target="_blank">
-                    <img src="../images/balt2.jpg">
-                  </a>
+                <div class="col-sm-4">
+                    <div class="photos ">
+                        <a href="../images/balt2.jpg" target="_blank">
+                            <img src="../images/balt2.jpg">
+                        </a>
+                    </div>
                 </div>
-              </div>
-
-            <div class="narrow text-center">
-              <div class="col-12">
-                <a class=" btn btn-secondary btn-md" href="../photos/photos.html" target="_self"> To Fotos </a>
+                <div class="narrow text-center">
+                    <div class="col-12">
+                        <a class=" btn btn-secondary btn-md" href="../photos/photos.html" target="_self"> To Fotos </a>
+                    </div>
                 </div>
-              </div>
-
             </div> <!-- End of Row -->
-
-      </div> <!-- End of Jumbotron -->
+        </div> <!-- End of Jumbotron -->
     </div>
     <!-- End photos Section -->
-
-
     <!-- Start Blog Section -->
-      <div id="blog" class="offset">
+    <div id="blog" class="offset">
         <div class="container-fluid">
-        <h3 class="heading">Blog</h3>
+            <h3 class="heading">Blog</h3>
             <div class="heading-underline"> </div>
-          </div>
-          <!-- 1. Artikel -->
-
-            <div class="row row-blog " >
-           
-              <div class="col-sm-6"  data-aos= "fade-up" data-aos-duration="3000" >
-                <div class="card card-img-left"    >
-                  <a href="../blog/artikel/goals.html"><img class="card-img-top"src="../images/compass.png"></a>
+        </div>
+        <!-- 1. Artikel -->
+        <div class="row row-blog ">
+            <div class="col-sm-6" data-aos="fade-up" data-aos-duration="3000">
+                <div class="card card-img-left">
+                    <a href="../blog/artikel/goals.html"><img class="card-img-top" src="../images/compass.png"></a>
                 </div>
-              </div>
-              <div class="col-sm-6"  data-aos= "fade-up" data-aos-duration="3000">
-                <div class="card ">
-                  <div class="card-body">
-                    <h1 class="card-title"> Ziele sind die Lösung für ein besseres Leben <span class="badge badge-secondary">New</span></h1>
-                    <p class="card-text">Ziele sind der Kompass unseres Lebens. Sie bestimmen <b>unsere Richtung</b> und helfen uns sicher durch stürmische Phasen des Lebens zu navigieren. Die Erkenntnis, dass wir Ziele benötigen, ist aber nur der erste Schritt. </p>
-                    <a href="../blog/artikel/goals.html" class="btn btn-light">Read more</a>
-                  </div>
-                </div>
-              </div>
             </div>
-
-            <!-- 2. Artikel -->
-            <div class="row row-blog">
-                              <div class="col-sm-6" data-aos= "fade-up" data-aos-duration="3000">
+            <div class="col-sm-6" data-aos="fade-up" data-aos-duration="3000">
+                <div class="card ">
+                    <div class="card-body">
+                        <h1 class="card-title"> Ziele sind die Lösung für ein besseres Leben <span class="badge badge-secondary">New</span></h1>
+                        <p class="card-text">Ziele sind der Kompass unseres Lebens. Sie bestimmen <b>unsere Richtung</b> und helfen uns sicher durch stürmische Phasen des Lebens zu navigieren. Die Erkenntnis, dass wir Ziele benötigen, ist aber nur der erste Schritt. </p>
+                        <a href="../blog/artikel/goals.html" class="btn btn-light">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2. Artikel -->
+        <div class="row row-blog">
+            <div class="col-sm-6" data-aos="fade-up" data-aos-duration="3000">
                 <div class="card card-img-right">
-                  <a href="../blog/artikel/corona.html"><img class="card-img-top shadow-pop-tl"src="../images/corona.jpg"></a>
+                    <a href="../blog/artikel/corona.html"><img class="card-img-top shadow-pop-tl" src="../images/corona.jpg"></a>
                 </div>
-              </div>
-              <div class="col-sm-6" data-aos= "fade-up" data-aos-duration="3000">
-                <div class="card ">
-                  <div class="card-body">
-                   <h1 class="card-title"> Corona - Die Natur schlägt zurück?<span class="badge badge-secondary"></span></h1>
-                    <p class="card-text">Corona. Covid-19. Tödliches Virus. Diese Wörter habe ich in den letzten Monaten öfter gehört als jedes andere Wort in meinem ganzen Leben. 24/7 in den Nachrichten. Jeder Gedanke geht an dieses Virus. Das größte Ereignis seit dem 2. Weltkrieg. Doch gegen was führen wir nun den Krieg. </p>
-                    <a href="../blog/artikel/corona.html" class="btn btn-light">Read More</a>
-                  </div>
-                </div>
-              </div>
-
             </div>
-<!--
+            <div class="col-sm-6" data-aos="fade-up" data-aos-duration="3000">
+                <div class="card ">
+                    <div class="card-body">
+                        <h1 class="card-title"> Corona - Die Natur schlägt zurück?<span class="badge badge-secondary"></span></h1>
+                        <p class="card-text">Corona. Covid-19. Tödliches Virus. Diese Wörter habe ich in den letzten Monaten öfter gehört als jedes andere Wort in meinem ganzen Leben. 24/7 in den Nachrichten. Jeder Gedanke geht an dieses Virus. Das größte Ereignis seit dem 2. Weltkrieg. Doch gegen was führen wir nun den Krieg. </p>
+                        <a href="../blog/artikel/corona.html" class="btn btn-light">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
              3. Artikel
             <div class="row row-blog" >
               <div class="col-sm-6" data-aos= "fade-up" data-aos-duration="3000">
@@ -219,109 +197,95 @@
             </div>
 
 -->
-            <!-- 4. Artikel -->
-            <div class="row row-blog" >
-             <div class="col-sm-6" data-aos= "fade-up" data-aos-duration="3000">
+        <!-- 4. Artikel -->
+        <div class="row row-blog">
+            <div class="col-sm-6" data-aos="fade-up" data-aos-duration="3000">
                 <div class="card card-img-4">
-            <a href="../blog/artikel/emotions.html"><img class="card-img-top"src="../images/tears.jfif"></a>                </div>
-              </div>
-              <div class="col-sm-6" data-aos= "fade-up" data-aos-duration="3000">
+                    <a href="../blog/artikel/emotions.html"><img class="card-img-top" src="../images/tears.jfif"></a> </div>
+            </div>
+            <div class="col-sm-6" data-aos="fade-up" data-aos-duration="3000">
                 <div class="card ">
-                  <div class="card-body">
-                   <h1 class="card-title"> Was sind Gefühle & Emotionen und wie können wir sie begreifen? <span class="badge badge-secondary"></span></h1>
-                    <p class="card-text">Wir alle kennen es. Man wacht auf und hat das Gefühl das ihn schon alles auf die Nerven geht. Jede Kleinigkeit löst bei uns im kopf eine kleine Atomschmelze aus. Der Bus kommt 2 min. zu spät, das stürmische Wetter geht einem richtig auf den Sack und bei jeder Person die mit dir redet geschweige denn nur anschaut, spielt sich in deinem Kopf eine Szene ab wie du ihn vor die Ubahn schubst. </p>
-                    <a href="../blog/artikel/emotions.html" class="btn btn-light">Read More</a>
-                  </div>
+                    <div class="card-body">
+                        <h1 class="card-title"> Was sind Gefühle & Emotionen und wie können wir sie begreifen? <span class="badge badge-secondary"></span></h1>
+                        <p class="card-text">Wir alle kennen es. Man wacht auf und hat das Gefühl das ihn schon alles auf die Nerven geht. Jede Kleinigkeit löst bei uns im kopf eine kleine Atomschmelze aus. Der Bus kommt 2 min. zu spät, das stürmische Wetter geht einem richtig auf den Sack und bei jeder Person die mit dir redet geschweige denn nur anschaut, spielt sich in deinem Kopf eine Szene ab wie du ihn vor die Ubahn schubst. </p>
+                        <a href="../blog/artikel/emotions.html" class="btn btn-light">Read More</a>
+                    </div>
                 </div>
-              </div>
-
             </div>
-            </div>
-
- 
-            
-
-            <div class="narrow text-center">
-              <div class="col-12">
-                <a class=" btn btn-secondary btn-md" href="../blog/blog.html" target="_self"> To Blog </a>
-                </div>
-              </div>
-
-            <!-- End of Row -->
-            </div>
-              </div>
-            </div>
-  
-
+        </div>
+    </div>
+    <div class="narrow text-center">
+        <div class="col-12">
+            <a class=" btn btn-secondary btn-md" href="../blog/blog.html" target="_self"> To Blog </a>
+        </div>
+    </div>
+    <!-- End of Row -->
+    </div>
+    </div>
+    </div>
     <!-- End Blog Section -->
-
     <!-- Start Contacts Section -->
-      <div id="contact" >
+    <div id="contact">
         <footer>
-          <div class="row justify-content-center">
-            <div class="info col-md-4 text-center ">
-              <img src="../images/Logo2.png" alt="">
-              <p> Willkommen auf meiner Website. Ich bin Henoch / 21 Jahre alt. Studiere Wirtschaftsinformatik im 4. Semester und auf diese Seite erfährst du alles über mich und meine Gedanken zu verschiedenen Themen. Viel Spaß du Laus :)</p>
-              <strong>Contact Info</strong>
-              <p>Tel: 0176903948<br>henoch@hotmail.com</p>
-
-              <a href="https://www.youtube.com/channel/UCDfRkTTeh_6SVd9Kr7a-mHQ?view_as=subscriber" target="_blank"> <i class="fab fa-youtube"></i> </a>
-              <a href=" https://www.instagram.com/henoch.b/" target="_blank"> <i class="fab fa-instagram"></i> </a>
-              <a href="" target="_blank"> <i class="fab fa"></i> </a>
+            <div class="row justify-content-center">
+                <div class="info col-md-4 text-center ">
+                    <img src="../images/Logo2.png" alt="">
+                    <p> Willkommen auf meiner Website. Ich bin Henoch / 21 Jahre alt. Studiere Wirtschaftsinformatik im 4. Semester und auf diese Seite erfährst du alles über mich und meine Gedanken zu verschiedenen Themen. Viel Spaß du Laus :)</p>
+                    <strong>Contact Info</strong>
+                    <p>Tel: 0176903948<br>henoch@hotmail.com</p>
+                    <a href="https://www.youtube.com/channel/UCDfRkTTeh_6SVd9Kr7a-mHQ?view_as=subscriber" target="_blank"> <i class="fab fa-youtube"></i> </a>
+                    <a href=" https://www.instagram.com/henoch.b/" target="_blank"> <i class="fab fa-instagram"></i> </a>
+                    <a href="" target="_blank"> <i class="fab fa"></i> </a>
+                </div>
+                <hr class="socket">
+                &copy; Heni's Web Design
             </div>
-
-            <hr class="socket">
-            &copy; Heni's Web Design
-          </div>
-          </div> <!-- end of row -->
-        </footer>
-        
-      </div>
+    </div> <!-- end of row -->
+    </footer>
+    </div>
     <!-- End Contacts Section -->
-<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-angle-up"></i></a>
-
-
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-angle-up"></i></a>
     <!-- Optional JavaScript -->
-         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-       AOS.init();
+    AOS.init();
     </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-     <script src="https://kit.fontawesome.com/548277342c.js" crossorigin="anonymous"></script>
-      <script> $(window).scroll(function(e) {
+    <script src="https://kit.fontawesome.com/548277342c.js" crossorigin="anonymous"></script>
+    <script>
+    $(window).scroll(function(e) {
 
-    // add/remove class to navbar when scrolling to hide/show
-    var scroll = $(window).scrollTop();
-    if (scroll >= 150) {
-        $('.navbar').addClass("navbar-hide");
-    } else {
-        $('.navbar').removeClass("navbar-hide");
-    }
+        // add/remove class to navbar when scrolling to hide/show
+        var scroll = $(window).scrollTop();
+        if (scroll >= 150) {
+            $('.navbar').addClass("navbar-hide");
+        } else {
+            $('.navbar').removeClass("navbar-hide");
+        }
 
-});
-
-</script>
-
-<script> $(document).ready(function(){
-  $(window).scroll(function () {
-      if ($(this).scrollTop() > 50) {
-        $('.back-to-top').fadeIn();
-      } else {
-        $('.back-to-top').fadeOut();
-      }
     });
-    // scroll body to 0px on click
-    $('.back-to-top').click(function () {
-      $('body,html').animate({
-        scrollTop: 0
-      }, 400);
-      return false;
+    </script>
+    <script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 50) {
+                $('.back-to-top').fadeIn();
+            } else {
+                $('.back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('.back-to-top').click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 400);
+            return false;
+        });
     });
-});</script>
+    </script>
+</body>
 
-  </body>
 </html>
