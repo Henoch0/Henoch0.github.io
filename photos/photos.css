@@ -85,31 +85,14 @@ html {
 }
 
 
+* {
+    box-sizing: border-box;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header {
+    text-align: center;
+    padding: 32px;
+}
 
 .row {
     padding: 0 4px;
