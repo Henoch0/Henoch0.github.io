@@ -62,7 +62,6 @@ html {
     font-size: .9rem;
     /*1rem = 16px*/
     letter-spacing: .1rem;
-    background: rgba(0, 0, 0, 0.1) !important;
 }
 
 .navbar-brand img {
@@ -75,7 +74,7 @@ html {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    color: black;
     padding-top: 0.8rem;
 }
 
