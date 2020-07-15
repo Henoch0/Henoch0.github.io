@@ -15,7 +15,11 @@ body {
     /*1rem = 16px*/
     letter-spacing: .1rem;
     height: 60px;
+    z-index: 10;
+}
 
+.navbar-nav {
+    flex-direction: column;
 }
 
 .navbar-toggler {
