@@ -63,8 +63,9 @@ body {
 }
 
 .navbar-nav {
-    flex-direction: column;
+    padding-left: 16px;
 }
+
 
 .navbar-toggler {
     border: none;
