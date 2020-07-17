@@ -376,7 +376,6 @@ a>span:after {
 
 .ih-item.circle.effect13 a:hover .info {
     opacity: 1;
-    position: unset;
 }
 
 .ih-item.circle.effect13 a:hover h3 {
