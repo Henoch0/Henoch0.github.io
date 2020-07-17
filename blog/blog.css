@@ -416,7 +416,7 @@ a>span:after {
     transition: all 0.35s ease-in-out;
 }
 
-.ih-item.circle.effect13 .info h3 {
+.ih-item.circle.effect13 .info h4 {
     visibility: hidden;
     color: #fff;
     text-transform: uppercase;
@@ -449,7 +449,7 @@ a>span:after {
     opacity: 1;
 }
 
-.ih-item.circle.effect13 a:hover h3 {
+.ih-item.circle.effect13 a:hover h4 {
     visibility: visible;
 }
 
@@ -457,7 +457,7 @@ a>span:after {
     visibility: visible;
 }
 
-.ih-item.circle.effect13.from_left_and_right .info h3 {
+.ih-item.circle.effect13.from_left_and_right .info h4 {
     -webkit-transform: translateX(-100%);
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
@@ -473,7 +473,7 @@ a>span:after {
     transform: translateX(100%);
 }
 
-.ih-item.circle.effect13.from_left_and_right a:hover h3 {
+.ih-item.circle.effect13.from_left_and_right a:hover h4 {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
