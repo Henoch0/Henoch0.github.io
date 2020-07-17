@@ -19,42 +19,55 @@
 
 <body>
     <div class="wrapper">
-        <!-- Sidebar  -->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>Henoch Biru</h3>
+        <!--- Navigation Bar --->
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <ul class="navbar navbar-nav p">
+                    <!-- schiebt navbar nach rechts-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../homepage/index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../photos/photos.html">Photos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../blog/blog.html">Blog</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-unstyled components">
-                <p>Menu</p>
-                <li>
-                    <a href="../homepage/index.html">Home</a>
-                </li>
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Fotos</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="baby.html">Baby</a>
-                        </li>
-                        <li>
-                            <a href="usa.html">USA</a>
-                        </li>
-                        <li>
-                            <a href="others.html">Others</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="../blog/blog.html">Blog</a>
-                </li>
-            </ul>
+        </div>
+        <nav class="navbar navbar-light ">
+            <a class="navbar-brand" href="../../homepage/index.html"><img src="../../images/Logo1.png" alt="logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </nav>
-        <!-- Page Content  -->
-        <div id="content">
-            <div class="container-fluid">
-                <button type="button" id="sidebarCollapse" class="btn btn-info">
-                    <i class="fas fa-align-left"></i>
-                    <span>Sidebar</span>
-                </button>
+    </div>
+    <!--- End Navigation Bar -->
+    <!-- Page Content  -->
+    <div id="content">
+        <div class="container-fluid">
+        </div>
+        <!-- Header -->
+        <div class="header" id="myHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="usa.html">
+                            <h1>USA</h1>
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="baby.html">
+                            <h1>Little Me</h1>
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="others.html">
+                            <h1>Others</h1>
+                        </a>
+                    </div>
+                </div>
             </div>
             <!-- Header -->
             <div class="header" id="myHeader">
