@@ -19,55 +19,61 @@
 
 <body>
     <div class="wrapper">
-        <!-- Sidebar  -->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <img src="../images/Logo1.png" alt="logo">
-                <h3>Henoch Biru</h3>
+        <!--- Navigation Bar --->
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <ul class="navbar navbar-nav p">
+                    <!-- schiebt navbar nach rechts-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../homepage/index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../photos/photos.html">Photos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../blog/blog.html">Blog</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-unstyled components">
-                <p>Menu</p>
-                <li>
-                    <a href="../homepage/index.html">Home</a>
-                </li>
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Fotos</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="baby.html">Baby</a>
-                        </li>
-                        <li>
-                            <a href="usa.html">USA</a>
-                        </li>
-                        <li>
-                            <a href="others.html">Others</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="../blog/blog.html">Blog</a>
-                </li>
-            </ul>
+        </div>
+        <nav class="navbar navbar-light ">
+            <a class="navbar-brand" href="../../homepage/index.html"><img src="../../images/Logo1.png" alt="logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </nav>
-        <!-- Page Content  -->
-        <div id="content">
-            <div class="container-fluid">
-                <button type="button" id="sidebarCollapse" class="btn btn-info">
-                    <i class="fas fa-align-left"></i>
-                    <span>Sidebar</span>
-                </button>
+    </div>
+    <!--- End Navigation Bar -->
+    <!-- Page Content  -->
+    <div id="content">
+        <div class="container-fluid">
+        </div>
+        <!-- Header -->
+        <div class="header" id="myHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="usa.html">
+                            <h1>USA</h1>
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <h1>Fotos</h1>
+                    </div>
+                    <div class="col-sm">
+                        <a href="others.html">
+                            <h1>Others</h1>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <!-- Header -->
-            <div class="header" id="myHeader">
-                <h1>Fotos</h1>
-                <p>Click here to change the view.</p>
-                <button class="btn" onclick="one()">1</button>
-                <button class="btn active" onclick="two()">2</button>
-                <button class="btn" onclick="four()">3</button>
-            </div>
-            <h1> Comming Soon.</h1>
-            <!-- Photo Grid -->
-            <!-- <div class="row"> 
+            <button class="btn " onclick="one()">1</button>
+            <button class="btn active" onclick="two()">2</button>
+            <button class="btn " onclick="four()">3</button>
+        </div>
+        <h1> Comming Soon.</h1>
+        <!-- Photo Grid -->
+        <!-- <div class="row"> 
           <div class="column">
             <img src="images/1.jpg" style="width:100%">
             <img src="images/2.jpg" style="width:100%">
@@ -104,89 +110,89 @@
             <img src="images/27.jpg" style="width:100%">
           </div>
         </div> -->
-            <script>
-            // Get the elements with class="column"
-            var elements = document.getElementsByClassName("column");
+        <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
 
-            // Declare a loop variable
-            var i;
+        // Declare a loop variable
+        var i;
 
-            // Full-width images
-            function one() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.msFlex = "100%"; // IE10
-                    elements[i].style.flex = "100%";
-                }
+        // Full-width images
+        function one() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "100%"; // IE10
+                elements[i].style.flex = "100%";
+            }
+        }
+
+        // Two images side by side
+        function two() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "50%"; // IE10
+                elements[i].style.flex = "50%";
+            }
+        }
+
+        // Four images side by side
+        function four() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "25%"; // IE10
+                elements[i].style.flex = "25%";
+            }
+        }
+
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myHeader");
+        var btns = header.getElementsByClassName("btn-dark");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+        </script>
+        <!-- Optional JavaScript -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/548277342c.js" crossorigin="anonymous"></script>
+        <script>
+        $(window).scroll(function(e) {
+
+            // add/remove class to navbar when scrolling to hide/show
+            var scroll = $(window).scrollTop();
+            if (scroll >= 150) {
+                $('.navbar').addClass("navbar-hide");
+            } else {
+                $('.navbar').removeClass("navbar-hide");
             }
 
-            // Two images side by side
-            function two() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.msFlex = "50%"; // IE10
-                    elements[i].style.flex = "50%";
-                }
-            }
-
-            // Four images side by side
-            function four() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.msFlex = "25%"; // IE10
-                    elements[i].style.flex = "25%";
-                }
-            }
-
-            // Add active class to the current button (highlight it)
-            var header = document.getElementById("myHeader");
-            var btns = header.getElementsByClassName("btn-dark");
-            for (var i = 0; i < btns.length; i++) {
-                btns[i].addEventListener("click", function() {
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";
-                });
-            }
-            </script>
-            <!-- Optional JavaScript -->
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-            <script>
-            AOS.init();
-            </script>
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-            <script src="https://kit.fontawesome.com/548277342c.js" crossorigin="anonymous"></script>
-            <script>
-            $(window).scroll(function(e) {
-
-                // add/remove class to navbar when scrolling to hide/show
-                var scroll = $(window).scrollTop();
-                if (scroll >= 150) {
-                    $('.navbar').addClass("navbar-hide");
+        });
+        </script>
+        <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 50) {
+                    $('.back-to-top').fadeIn();
                 } else {
-                    $('.navbar').removeClass("navbar-hide");
+                    $('.back-to-top').fadeOut();
                 }
-
             });
-            </script>
-            <script>
-            $(document).ready(function() {
-                $(window).scroll(function() {
-                    if ($(this).scrollTop() > 50) {
-                        $('.back-to-top').fadeIn();
-                    } else {
-                        $('.back-to-top').fadeOut();
-                    }
-                });
-                // scroll body to 0px on click
-                $('.back-to-top').click(function() {
-                    $('body,html').animate({
-                        scrollTop: 0
-                    }, 400);
-                    return false;
-                });
+            // scroll body to 0px on click
+            $('.back-to-top').click(function() {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 400);
+                return false;
             });
-            </script>
+        });
+        </script>
 </body>
 
 </html>
