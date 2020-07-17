@@ -402,7 +402,7 @@ a>span:after {
     transform: translateX(100%);
 }
 
-.ih-item.circle.effect13.from_left_and_right a:hover h3 {
+.ih-item.circle.effect13.from_left_and_right img:hover h3 {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -410,7 +410,7 @@ a>span:after {
     transform: translateX(0);
 }
 
-.ih-item.circle.effect13.from_left_and_right a:hover p {
+.ih-item.circle.effect13.from_left_and_right img:hover p {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -432,11 +432,11 @@ a>span:after {
     box-sizing: border-box;
 }
 
-.ih-item a {
+.ih-item img {
     color: #333;
 }
 
-.ih-item a:hover {
+.ih-item img:hover {
     text-decoration: none;
 }
 
