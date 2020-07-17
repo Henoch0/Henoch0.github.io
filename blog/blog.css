@@ -360,8 +360,8 @@ a>span:after {
 
 .ih-item.circle {
     position: relative;
-    width: 50vw;
-    height: auto;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     margin: auto;
     margin-bottom: 20px;
@@ -369,10 +369,32 @@ a>span:after {
 
 .ih-item.circle .img {
     position: relative;
-    width: 50vw;
-    height: auto;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
 }
+
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 812px) {
+    .ih-item.circle {
+        position: relative;
+        width: 50vw;
+        height: auto;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .ih-item.circle .img {
+        position: relative;
+        width: 50vw;
+        height: auto;
+        border-radius: 50%;
+    }
+
+
+}
+
 
 .ih-item.circle .img:before {
     position: absolute;
