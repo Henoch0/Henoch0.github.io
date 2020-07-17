@@ -374,15 +374,15 @@ a>span:after {
     transition: all 0.35s ease-in-out;
 }
 
-.ih-item.circle.effect13 a:hover .info {
+.ih-item.circle.effect13 img:hover .info {
     opacity: 1;
 }
 
-.ih-item.circle.effect13 a:hover h3 {
+.ih-item.circle.effect13 img:hover h3 {
     visibility: visible;
 }
 
-.ih-item.circle.effect13 a:hover p {
+.ih-item.circle.effect13 img:hover p {
     visibility: visible;
 }
 
