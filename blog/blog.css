@@ -365,7 +365,8 @@ a>span:after {
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    display: inline;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .ih-item.circle .img {
