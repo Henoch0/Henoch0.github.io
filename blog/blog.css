@@ -508,3 +508,7 @@ a>span:after {
     -o-transform: translateX(0);
     transform: translateX(0);
 }
+
+.light {
+    color: grey;
+}
