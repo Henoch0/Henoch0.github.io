@@ -54,15 +54,31 @@ html {
 }
 
 
-/* Navbar*/
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
 
+/* Navbar*/
 .navbar {
     text-transform: uppercase;
     font-weight: 700;
     font-size: .9rem;
     /*1rem = 16px*/
     letter-spacing: .1rem;
+    height: 60px;
+    z-index: 10;
 }
+
+.navbar-nav {
+    flex-direction: column;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
 
 .navbar-brand img {
     border-radius: 13px;
@@ -75,12 +91,10 @@ html {
 
 .navbar-dark .navbar-nav .nav-link {
     color: black;
-    padding-top: 0.8rem;
 }
 
-.navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #1a75ff;
+    color: #A9DFBF;
 }
 
 .navbar-toggler {
