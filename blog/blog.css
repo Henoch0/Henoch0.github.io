@@ -322,12 +322,9 @@ a>span:after {
     position: fixed;
     right: 15px;
     bottom: 15px;
-    width: 35px;
-    height: 35px;
     display: none;
     opacity: 0.5;
     font-size: 1rem;
-    line-height: 1.8;
     border-radius: 50%;
 }
 
