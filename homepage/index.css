@@ -42,12 +42,11 @@ html {
     /*1rem = 16px*/
     letter-spacing: .1rem;
     background: rgba(0, 0, 0, 0.1) !important;
-    height: 50px;
 }
 
 .navbar-brand img {
     border-radius: 13px;
-    height: 2rem;
+    height: 2.2rem;
 }
 
 .navbar-nav li {
