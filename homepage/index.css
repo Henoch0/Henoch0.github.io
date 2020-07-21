@@ -42,11 +42,12 @@ html {
     /*1rem = 16px*/
     letter-spacing: .1rem;
     background: rgba(0, 0, 0, 0.1) !important;
+    height: 50px;
 }
 
 .navbar-brand img {
     border-radius: 13px;
-    height: 2.3rem;
+    height: 2rem;
 }
 
 .navbar-nav li {
@@ -329,11 +330,10 @@ hr.socket {
 
 .back-to-top {
     position: fixed;
-    bottom: 25px;
     right: 25px;
+    bottom: 25px;
     display: none;
     opacity: 0.5;
     font-size: 1rem;
-    line-height: 1.8;
-    border-radius: 1.6rem;
+    border-radius: 50%;
 }
