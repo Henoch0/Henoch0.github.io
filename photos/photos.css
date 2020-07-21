@@ -155,3 +155,13 @@ h3 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+
+.back-to-top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    display: none;
+    opacity: 0.5;
+    font-size: 1rem;
+    border-radius: 50%;
+}
