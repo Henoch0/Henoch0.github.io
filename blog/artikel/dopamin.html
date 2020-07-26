@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../blog.css">
+    <link rel="stylesheet" type="text/css" href="../../css/fixed.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <title>My Blog</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <!--- Navigation Bar --->
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <ul class="navbar navbar-nav p">
+                <!-- schiebt navbar nach rechts-->
+                <li class="nav-item">
+                    <a class="nav-link" href="../../homepage/index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../photos/photos.html">Photos </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-light ">
+        <a class="navbar-brand" href="../../homepage/index.html"><img src="../../images/Logo1.png" alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    </div>
+    <!--- End Navigation Bar -->
+    <section class="content">
+        <article class="content__inner">
+            <h1 class="content__title"> Wieso wir uns mit dem Wandel der Technologie ändern müssen. </h1>
+            <h3 class="content__author">By Henoch Biru</h3>
+        </article>
+        <img class="first" src="https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+        <article class="content__inner">
+            <img class="img" src="https://images.unsplash.com/photo-1589561253831-b8421dd58261?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80">
+            <p><b> Ein gesunder Körper ist die Basis für alles </b></p>
+            <p><b> Die stärkste Droge - Dopamin </b></p>
+            <p> <b> </b></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <img class="gif" src="../GIFS/pinguin.gif">
+        </article>
+    </section>
+    <div class="ih-item circle effect13 from_left_and_right"><a>
+            <div class="img"><img src="https://instagram.fmuc4-1.fna.fbcdn.net/v/t51.2885-19/s320x320/38924140_2076208769374324_5118753486640513024_n.jpg?_nc_ht=instagram.fmuc4-1.fna.fbcdn.net&_nc_ohc=vN_aXqVGO8oAX8Qrjf8&oh=90de24a5d35be5e65f2168766ca08935&oe=5F39AC03" alt="img"></div>
+            <div class="info">
+                <div class="info-back">
+                    <h4>Henoch Biru</h4>
+                    <p>The guy you always dreamed of :)</p>
+                </div>
+            </div>
+        </a></div>
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-angle-up"></i></a>
+    <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/548277342c.js" crossorigin="anonymous"></script>
+    <script>
+    $(window).scroll(function(e) {
+
+        // add/remove class to navbar when scrolling to hide/show
+        var scroll = $(window).scrollTop();
+        if (scroll >= 150) {
+            $('.navbar').addClass("navbar-hide");
+        } else {
+            $('.navbar').removeClass("navbar-hide");
+        }
+
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 50) {
+                $('.back-to-top').fadeIn();
+            } else {
+                $('.back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('.back-to-top').click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 400);
+            return false;
+        });
+    });
+    </script>
+</body>
+
+</html>
