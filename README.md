@@ -1,1 +1,1 @@
-# Hi, falls ihr den Link über eine Bewerbung bekommen habt würde ich euch bitten vllt. sich nur einen Überblick über die Form und das Allgemeine zu machen. Sind ein paar persönliche Informationen auf der Seite enthalten Thx :D
+Just for fun.
