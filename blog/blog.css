@@ -106,7 +106,7 @@ h2 {
     font-weight: normal;
 }
 
-@media only screen and (min-device-width : 360px) and (max-device-width : 812px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
 
     .first {
         width: 100vw !important;

@@ -273,7 +273,7 @@ hr.socket {
 
 }
 
-@media only screen and (min-device-width : 360px) and (max-device-width : 812px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
     .carousel-caption h1 {
         font-size: 2rem;
         letter-spacing: 0.15rem;
